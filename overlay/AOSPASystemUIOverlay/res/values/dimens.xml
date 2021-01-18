@@ -9,7 +9,7 @@
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
     <!-- Dimensions for the navigation bar handle -->
-    <dimen name="navigation_handle_radius">2dp</dimen>
+    <dimen name="navigation_handle_radius">1.8dp</dimen>
     <dimen name="navigation_home_handle_width">137dp</dimen>
 
 </resources>
