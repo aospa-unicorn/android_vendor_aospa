@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
     FontOppoSansOverlay \
     FontPingFangOverlay \
     FontQuicksandOverlay \
+    FontSwitzerOverlay \
     FontUrbanistOverlay \
     FontAlbertSansOverlay \
     FontDMSansOverlay \
