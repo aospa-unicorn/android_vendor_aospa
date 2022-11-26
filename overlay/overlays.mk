@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     FontInterOverlay \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
+    FontMiLanProOverlay \
     FontOnePlusSansOverlay  \
     FontOppoSansOverlay \
     FontPingFangOverlay \
