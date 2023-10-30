@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
     AOSPASystemUIOverlay \
     CertifiedPropsOverlay \
     FontGoogleSansOverlay \
+    FontGeistOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
     FontLinotteSourceOverlay \
