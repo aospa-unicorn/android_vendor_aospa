@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     FontOppoSansOverlay \
     FontPingFangOverlay \
     FontUrbanistOverlay \
+    FontAlbertSansOverlay \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
     IconPackCircularSettingsOverlay \
