@@ -55,6 +55,10 @@ PRODUCT_PACKAGES += \
     GoogleCameraGo
 endif
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images_vendor_pixel
+
 # curl
 PRODUCT_PACKAGES += \
     curl
