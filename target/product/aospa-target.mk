@@ -56,8 +56,21 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
 # Dexpreopt
-# Don't dexpreopt prebuilts (For GMS)
+# Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    ParanoidSystemUI
+    ParanoidSystemUI \
+    Settings
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.systemuicompilerfilter=speed
+
+# Disable phantom process monitoring
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 # Default filter
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
