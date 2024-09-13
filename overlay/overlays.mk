@@ -19,6 +19,8 @@ PRODUCT_PACKAGES += \
     AOSPAImmersiveNavigationOverlay \
     AOSPANetworkStackOverlay \
     AOSPANetworkStackMainlineOverlay \
+    AOSPAPermissionControllerOverlay \
+    AOSPAPermissionControllerMainlineOverlay \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
