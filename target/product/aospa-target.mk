@@ -48,8 +48,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
 # Camera
+ifeq ($(CAMERA_PACKAGE_NAME),)
 PRODUCT_PACKAGES += \
     GoogleCameraGo
+endif
 
 # curl
 PRODUCT_PACKAGES += \
