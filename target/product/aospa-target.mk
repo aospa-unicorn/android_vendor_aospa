@@ -19,6 +19,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Some CTS test case failed after enabling feature config_stopSystemPackagesByDefault
 PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 
+# Google Pixel Launcher
+PRODUCT_PACKAGES += \
+    NexusLauncherRelease
+
+# Google Pixel Launcher Overlay
+PRODUCT_PACKAGES += \
+    NexusLauncherOverlay \
+    PixelLauncherConfigOverlay
+
 # Abstruct
 PRODUCT_PACKAGES += \
     Abstruct
