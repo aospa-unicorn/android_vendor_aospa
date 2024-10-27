@@ -28,6 +28,12 @@ PRODUCT_PACKAGES += \
     NexusLauncherOverlay \
     PixelLauncherConfigOverlay
 
+# Aperture
+PRODUCT_PACKAGES += \
+    Aperture
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.lineageos.aperture
+
 # Abstruct
 PRODUCT_PACKAGES += \
     Abstruct
@@ -51,10 +57,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
-
-# Camera
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
 
 # curl
 PRODUCT_PACKAGES += \
