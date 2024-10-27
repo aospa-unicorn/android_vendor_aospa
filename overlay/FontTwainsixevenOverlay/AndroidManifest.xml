@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.aospa.theme.font.twainsixeven">
+
+    <overlay
+        android:category="android.theme.customization.font"
+        android:priority="600"
+        android:targetPackage="android" />
+
+    <application android:label="twainsixeven">
+        <meta-data
+            android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
+            android:value="twainsixeven-text,twainsixeven-text-medium,twainsixeven-clock,twainsixeven,twainsixeven-medium" />
+    </application>
+</manifest>
