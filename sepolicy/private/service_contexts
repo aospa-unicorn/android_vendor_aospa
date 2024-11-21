@@ -9,3 +9,6 @@ pocket                                      u:object_r:pocket_service:s0
 
 # Lineage
 lineagehealth                               u:object_r:lineage_health_interface_service:s0
+
+# ParallelSpace
+parallel                                  u:object_r:parallel_space_service:s0
