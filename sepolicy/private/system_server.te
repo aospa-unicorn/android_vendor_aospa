@@ -19,3 +19,6 @@ hal_client_domain(system_server, hal_lineage_health)
 # CachedAppOptimizer
 allow system_server zygote_tmpfs:file rw_file_perms;
 allow system_server binderfs_logs:dir search;
+
+# ParallelSpace
+add_service(system_server, parallel_space_service);
