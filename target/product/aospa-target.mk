@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 PRODUCT_PACKAGES += \
     Abstruct
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
@@ -61,7 +65,8 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
-    ParanoidSystemUI
+    ParanoidSystemUI \
+    Settings
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.systemuicompilerfilter=speed
