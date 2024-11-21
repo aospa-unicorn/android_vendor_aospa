@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 PRODUCT_PACKAGES += \
     Abstruct
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
@@ -61,7 +65,6 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
-    ParanoidSystemUI
     ParanoidSystemUI \
     Settings
 
@@ -101,11 +104,8 @@ PRODUCT_PACKAGES += \
     vendor.aospa.power-service
 
 # Google - GMS, Pixel, and Mainline Modules
-$(call inherit-product, vendor/google/gms/config.mk)
-$(call inherit-product, vendor/google/pixel/config.mk)
-ifneq ($(TARGET_EXCLUDE_GMODULES), true)
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.mk)
-endif
+WITH_GMS := true
+$(call inherit-product, vendor/gms/gms_full.mk)
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
