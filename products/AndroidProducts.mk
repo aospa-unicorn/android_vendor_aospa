@@ -108,4 +108,4 @@ COMMON_LUNCH_CHOICES += \
     aospa_sunny-userdebug \
     aospa_surya-userdebug \
     aospa_vayu-userdebug \
-    aospa_unicorn-userdebug
+    aospa_unicorn-user
