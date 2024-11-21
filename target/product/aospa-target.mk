@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GameSpace
 
+# ParallelSpace
+PRODUCT_PACKAGES += \
+    ParallelSpace
+
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
