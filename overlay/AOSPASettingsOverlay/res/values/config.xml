@@ -59,9 +59,6 @@
     <!-- Whether to show a preference item for mobile plan -->
     <bool name="config_show_mobile_plan">false</bool>
 
-    <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
-    <bool name="config_cloned_apps_page_enabled">true</bool>
-
     <!-- Whether nfc detection point preview image is available or not. -->
     <bool name="config_nfc_detection_point">true</bool>
 
